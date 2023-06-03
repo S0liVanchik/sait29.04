@@ -1,0 +1,290 @@
+.header{
+	background-color:#EDC1C1;
+}
+.container{
+	max-width:1105px;
+	margin:0 auto ;
+}
+.container__header{
+	display:flex ;
+ justify-content:space-between;
+ align-items:center;
+}
+.logo{
+font-family: 'Revalia';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height */
+color:#34547A;
+text-align: left;	
+}
+.nav_list{
+display: flex;	
+}
+.nav__item{
+	list-style:none ;
+}
+.nav__item{
+margin-right:42px ;
+}
+
+.nav__link{
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+
+color: #000000;
+	
+}
+.nav__link:hover{
+	color: yellow;
+	box-shadow: 10px 10px 5px black;
+}
+/* -------- вторая часть home------------ */
+.home {
+	background-color:#EDC1C1;
+}
+.container__home{
+	display:flex;
+}
+.right__home{
+	margin-left:64px ;
+}
+.home__h2{
+	margin-bottom: 24px;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+
+color: #000000;
+}
+.nav_list{
+	margin-bottom: 150px;
+	margin-top: 106px;
+}
+.logo{
+	margin-bottom: 145px;
+	margin-top: 83px;
+	margin-left: 55px;
+}
+.home__p{
+	width: 540px;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 164.06%;
+/* or 33px */
+
+
+color: #000000;
+}
+.skills__botom{
+	display: flex;
+}
+.skills__photo{
+	width:555px;
+margin-left: 300px;
+margin-bottom: 230px;
+margin-top: 45px;
+}
+.div__left{
+	width: 403px;
+	margin-top: 125px;
+	margin-left:42px ;
+
+}
+.skills__title{
+	text-align:center ;
+	margin-top: 0px;
+	padding-top:100px ;
+	/* h2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+
+}
+.skills{
+	background-color: #EDC1C1;
+	pading-bottom: 150px;
+}
+
+.list__bar{
+	list-style:none ;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #000000;
+}
+.item__bar{
+}
+.title__bar{
+	margin: 10px;
+}
+.bar1{
+	background:#34547A;
+	width: 450.17px;
+height: 4px;
+}
+.bar2{
+	background:#34547A;
+	width: 400.17px;
+height: 4px;
+}
+.bar3{
+	background:#34547A;
+	width: 550.17px;
+height: 4px;
+}
+.title__video{
+	ont-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+margin-top:0px ;
+text-align: center;
+}
+.video{background-color:#EDC1C1;
+}
+.text__video{
+	text-align: center;
+}
+.video__utybe {
+display :block;
+margin: 0 auto;
+	padding-bottom:30px ; 
+}
+.img__gallary {
+	width: 100%;
+	height:450px ;
+}
+.gallary__list {
+ display: flex;
+ flex-wrap: wrap;
+	list-style:none ;
+padding: 0;
+margin :0;
+}
+.item__gallaru{
+	width:25% ;
+}
+.gallary{
+	background-color:#EDC1C1;
+}
+/*------футер ----*/
+.footer{
+	background-color:#34547A;
+}
+.container__footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title__footer{
+	margin-top: 0px;
+	padding-top: 50px;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: #FFFFFF;
+padding-bottom: 50px;
+
+
+
+}
+.right__footer{
+	list-style:none ;
+	display: flex;
+}
+.img__foter{
+	width: 44px;
+}
+.item__footer:not(:last-child){
+	margin-right: 20px;
+}
+.btn__return{
+	position: fixed;
+	top: 10;
+	right: 0;
+	left: 100;
+	bottom: 0;
+	width: 100px;
+}
+@media (max-width: 834px){
+	.logo{
+		font-size: 100px;
+		margin-bottom: 65px;
+	}
+	.nav__link{
+		font-size: 15px;
+	}
+	.container__header{
+		flex-direction: column;
+
+	}
+	.nav_list{
+		margin-top: 5px;
+	}
+	.container__home{
+		flex-direction: column;
+	}
+	.home__h2{
+		text-align: center;
+	}
+	.home__p{
+		text-align: center;
+		font-size: 25px;
+		margin-left: 40px;
+
+	}
+.logo2{
+	display: flex;
+	margin-left: 225px;
+
+}
+.title__video{
+	margin-top:0px ;
+
+}
+	.img__gallary {
+	width: 100%;
+	height:380px ;
+}
+.gallary__list {
+ display: flex;
+ flex-wrap: wrap;
+	list-style:none ;
+padding: 0;
+margin :0;
+}
+.item__gallaru{
+	width:50% ;
+
+}
+
+}
+
+
+
